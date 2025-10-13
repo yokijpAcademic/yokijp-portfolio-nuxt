@@ -55,6 +55,10 @@
               name="uil:dribbble"
               class="hover:text-pink-400 transition-all duration-300 transform hover:-translate-y-1"
             />
+            <Icon
+              name="uil:github"
+              class="hover:text-gray-600 transition-all duration-300 transform hover:-translate-y-1"
+            />
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@
     <ProjectsSections />
     <CtaSection />
     <BlogSection />
-    <ClientsSection />a
+    <ClientsSection />
   </div>
 </template>
 
