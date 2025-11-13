@@ -3,7 +3,7 @@
   <div class="min-h-screen py-4 md:py-10 b-primary flex max-w-full">
     <!-- Container Content -->
     <div class="w-full mx-auto flex flex-col gap-10">
-      <TitleSection>Latest Insights</TitleSection>
+      <TitleSection>{{ t({ id: 'Wawasan Terbaru', en: 'Latest Insights' }) }}</TitleSection>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- Blog Card 1 -->
@@ -20,11 +20,16 @@
             <h3
               class="text-xl font-semibold group-hover:text-blue-400 transition-colors"
             >
-              Membangun Aplikasi Android Modern dengan Kotlin
+              {{ t({
+                id: 'Membangun Aplikasi Android Modern dengan Kotlin',
+                en: 'Building Modern Android Apps with Kotlin'
+              }) }}
             </h3>
             <p class="text-gray-300">
-              Panduan lengkap menggunakan Kotlin untuk pengembangan aplikasi
-              Android yang efisien dan scalable.
+              {{ t({
+                id: 'Panduan lengkap menggunakan Kotlin untuk pengembangan aplikasi Android yang efisien dan scalable.',
+                en: 'A complete guide to using Kotlin for efficient and scalable Android app development.'
+              }) }}
             </p>
           </div>
         </div>
@@ -43,11 +48,16 @@
             <h3
               class="text-xl font-semibold group-hover:text-blue-400 transition-colors"
             >
-              Tips Optimasi Performa Website dengan Nuxt 3
+              {{ t({
+                id: 'Tips Optimasi Performa Website dengan Nuxt 3',
+                en: 'Website Performance Optimization Tips with Nuxt 3'
+              }) }}
             </h3>
             <p class="text-gray-300">
-              Teknik-teknik praktis untuk meningkatkan kecepatan dan performa
-              aplikasi web Anda.
+              {{ t({
+                id: 'Teknik-teknik praktis untuk meningkatkan kecepatan dan performa aplikasi web Anda.',
+                en: 'Practical techniques to improve the speed and performance of your web applications.'
+              }) }}
             </p>
           </div>
         </div>
@@ -66,11 +76,16 @@
             <h3
               class="text-xl font-semibold group-hover:text-blue-400 transition-colors"
             >
-              Best Practices dalam Desain UI/UX untuk Mobile App
+              {{ t({
+                id: 'Best Practices dalam Desain UI/UX untuk Mobile App',
+                en: 'Best Practices in UI/UX Design for Mobile Apps'
+              }) }}
             </h3>
             <p class="text-gray-300">
-              Prinsip-prinsip desain yang membuat aplikasi mobile Anda lebih
-              user-friendly dan menarik.
+              {{ t({
+                id: 'Prinsip-prinsip desain yang membuat aplikasi mobile Anda lebih user-friendly dan menarik.',
+                en: 'Design principles that make your mobile applications more user-friendly and engaging.'
+              }) }}
             </p>
           </div>
         </div>
@@ -79,6 +94,8 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const { t } = useLanguage()
+</script>
 
 <style></style>
