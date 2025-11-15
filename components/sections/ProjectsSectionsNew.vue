@@ -6,6 +6,7 @@
       <div class="grid grid-cols-5 grid-rows-3 gap-6">
         <!-- Feliya Attendance -->
         <div class="col-span-5 flex flex-col gap-6">
+          <!-- Image -->
           <div>
             <img
               src="~/assets/images/feliya_attendance_app.png"
@@ -14,9 +15,13 @@
             />
           </div>
 
+          <!-- Project Info -->
           <div class="flex flex-col gap-3">
+            
             <div class="flex items-center gap-4">
+              <!-- Title -->
               <h2 class="text-2xl font-bold">Feliya Attendance App</h2>
+              <!-- Tech Stack -->
               <TechStackDropdown>
                 <TechStack text="Android App">
                   <template #icon>
@@ -49,16 +54,21 @@
               </TechStackDropdown>
             </div>
 
+            <!-- Project description -->
             <p class="text-gray-300">
               {{ t({
                 id: 'Mengembangkan sistem manajemen kehadiran karyawan yang komprehensif yang dirancang khusus untuk PT. Feliya Laju Teknik, sebuah perusahaan jasa AC. Aplikasi seluler ini menyederhanakan manajemen tenaga kerja dengan menyediakan pelacakan kehadiran secara real-time, check-in/out berbasis GPS, dan kemampuan pelaporan otomatis.',
                 en: 'Developing a comprehensive employee attendance management system specifically designed for PT. Feliya Laju Teknik, an AC service company. This mobile application streamlines workforce management by providing real-time attendance tracking, GPS-based check-in/out, and automated reporting capabilities.'
               }) }}
             </p>
+
           </div>
+
         </div>
 
         <!-- Additional projects would follow similar pattern -->
+
+
       </div>
     </div>
   </div>

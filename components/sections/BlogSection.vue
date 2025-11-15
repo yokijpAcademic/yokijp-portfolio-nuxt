@@ -1,5 +1,4 @@
-<template>
-  <!-- Container -->
+<template class="display-hide"></template>
   <div class="min-h-screen py-4 md:py-10 b-primary flex max-w-full">
     <!-- Container Content -->
     <div class="w-full mx-auto flex flex-col gap-10">
