@@ -9,7 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "devhost": "nuxt dev --host 0.0.0.0",
-    "start": "nuxt preview",npm install && npm
+    "start": "nuxt preview"
   },
   "dependencies": {
     "@nuxt/icon": "^1.12.0",
