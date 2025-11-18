@@ -38,30 +38,54 @@
 
           <!-- Icons -->
           <div class="flex gap-4 text-white text-2xl">
-            <Icon
-              name="uil:linkedin"
-              class="hover:text-blue-400 transition-all duration-300 transform hover:-translate-y-1"
-            />
-            <Icon
-              name="uil:twitter"
-              class="hover:text-sky-400 transition-all duration-300 transform hover:-translate-y-1"
-            />
-            <Icon
-              name="uil:facebook-f"
-              class="hover:text-blue-600 transition-all duration-300 transform hover:-translate-y-1"
-            />
-            <Icon
-              name="uil:instagram"
-              class="hover:text-pink-500 transition-all duration-300 transform hover:-translate-y-1"
-            />
-            <Icon
-              name="uil:dribbble"
-              class="hover:text-pink-400 transition-all duration-300 transform hover:-translate-y-1"
-            />
-            <Icon
-              name="uil:github"
-              class="hover:text-gray-600 transition-all duration-300 transform hover:-translate-y-1"
-            />
+            <a
+              href="https://www.linkedin.com/in/yokijp/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:text-blue-400 transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
+            >
+              <Icon name="uil:linkedin" />
+            </a>
+            <a
+              href="https://x.com/moskov_kocak"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:text-sky-400 transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
+            >
+              <Icon name="uil:twitter" />
+            </a>
+            <a
+              href="https://www.facebook.com/yoki.jati.perkasa"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:text-blue-600 transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
+            >
+              <Icon name="uil:facebook-f" />
+            </a>
+            <a
+              href="https://www.instagram.com/yokijp_/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:text-pink-500 transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
+            >
+              <Icon name="uil:instagram" />
+            </a>
+            <a
+              href="https://dribbble.com/enigma_dex"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:text-pink-400 transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
+            >
+              <Icon name="uil:dribbble" />
+            </a>
+            <a
+              href="https://github.com/yokijatip"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:text-gray-600 transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
+            >
+              <Icon name="uil:github" />
+            </a>
           </div>
         </div>
       </div>
