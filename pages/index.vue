@@ -5,7 +5,6 @@
     <ServicesSection />
     <ProjectsSections />
     <CtaSection />
-    <BlogSection />
   </div>
 </template>
 
@@ -15,7 +14,6 @@ import AboutMeSection from "../components/sections/AboutMeSection.vue";
 import ServicesSection from "../components/sections/ServicesSection.vue";
 import ProjectsSections from "../components/sections/ProjectsSectionsNew.vue";
 import CtaSection from "../components/sections/CtaSection.vue";
-import BlogSection from "../components/sections/BlogSection.vue";
 </script>
 
 <style>
