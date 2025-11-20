@@ -18,14 +18,10 @@
 
       <div class="flex gap-6 flex-wrap justify-center">
         <button
+            @click="openWhatsApp"
           class="px-8 py-4 bg-white text-base-dark font-semibold rounded-full hover:scale-105 transition-transform duration-300"
         >
           {{ t({ id: 'Hubungi Saya', en: 'Contact Me' }) }}
-        </button>
-        <button
-          class="px-8 py-4 border-2 border-white text-white font-semibold rounded-full hover:bg-white hover:text-base-dark transition-all duration-300"
-        >
-          {{ t({ id: 'Lihat Portfolio', en: 'View Portfolio' }) }}
         </button>
       </div>
     </div>
@@ -34,6 +30,19 @@
 
 <script setup>
 const { t } = useLanguage()
+const phone = "62853985744763" // ganti nomor WA kamu
+
+const openWhatsApp = () => {
+  const message = encodeURIComponent(
+      "Halo kak, saya melihat portfolio Anda dan tertarik untuk bekerjasama. Bisa kita diskusikan lebih lanjut?"
+  );
+
+  const url = `https://wa.me/${phone}?text=${message}`;
+
+  window.open(url, "_blank"); // aman di semua browser
+};
+
+
 </script>
 
 <style></style>
