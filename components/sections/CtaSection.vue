@@ -30,7 +30,7 @@
 
 <script setup>
 const { t } = useLanguage()
-const phone = "62853985744763" // ganti nomor WA kamu
+const phone = "6285693649659" // ganti nomor WA kamu
 
 const openWhatsApp = () => {
   const message = encodeURIComponent(
